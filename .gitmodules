@@ -1,0 +1,6 @@
+[submodule "DatasetDM"]
+	path = DatasetDM
+	url = https://github.com/fox-flex/DatasetDM
+[submodule "DIS"]
+	path = DIS
+	url = https://github.com/fox-flex/DIS

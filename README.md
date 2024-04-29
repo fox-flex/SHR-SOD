@@ -8,10 +8,7 @@ Supervisor: Orest **KUPYN**
 
 
 
-
-# SetUp
-```{bash}
-
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-```
+# Structure of the repo
+- **gen_prompts**: scripts for class based prompt generation
+- **DatasetDM**: subrepo with dataset generation pipeline
+- **DIS**: subrepo with IS-Net training samples

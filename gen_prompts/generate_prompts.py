@@ -217,9 +217,12 @@ class PromptGenerator:
 if __name__ == '__main__':
     random.seed(109)
 
+    out_path = 'prompts.txt'
+
     gen = PromptGenerator('supclasses.json')
-    for i in range(10):
-        print(gen())
+    with open(out_path, 'w') as f:
+        for i in range(100):
+           f.write(f'{gen()}\n')
 
     
     
